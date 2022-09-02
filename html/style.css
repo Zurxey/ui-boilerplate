@@ -1,0 +1,107 @@
+body {
+    background-color: white;
+}
+
+.container {
+    vertical-align: top;
+}
+
+p {
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.subscribe-button {
+    background-color: rgb(200, 0, 0);
+    text-align: center;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 5px;
+    transition: opacity 0.15s;
+
+}
+
+.subscribe-button:hover {
+    background-color: rgb(224, 37, 37);
+    opacity: 0.7;   
+}
+.subscribe-button:active {
+    opacity: 0.1;
+}
+
+
+.join-now {
+  background-color: white;
+  text-align: center;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(41, 118, 211);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.15s, 
+    color 1s;
+  padding: 10px;
+}
+
+.join-now:hover {
+    background-color: rgb(4, 4, 162);
+    color: white;
+}
+.join-now:active {
+    background-color: white;
+    opacity: 0.7;
+}
+
+.tweeter {
+    background-color: rgb(2, 158, 255);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: box-shadow 0.15s;   
+    padding: 10px;
+}
+
+Hover box for Tweet
+.tweeter:hover {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.apple-text {
+  font-weight: bold;
+  font-size: 18px;
+  width: 280px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+
+.viewers {
+    font-size: 10px;
+    color: #606060;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+
+.video-author {
+    font-size: 14px;
+    color: rgb(96,96,96);
+    margin-bottom: 20px;
+}
+
+.video-description {
+    font-size: 13px;
+    color: rgb(96, 96, 96);
+    width: 260px;
+    line-height: 20px;
+}
