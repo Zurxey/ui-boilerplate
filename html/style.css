@@ -117,6 +117,11 @@ Hover box for Tweet
     padding-bottom: 18px;
 }
 
+.span-example {
+    margin-left: 0px;
+}
+
 .span-example:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
